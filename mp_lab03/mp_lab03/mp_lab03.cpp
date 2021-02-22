@@ -32,7 +32,8 @@ int main()
             else std::cout << std::setw(3) << "INF" << "  ";
     }
     std::cout << std::endl << "* оптимальный маршрут:\t";
-    for (int i = 0; i < SIZE; i++) std::cout << route[i] << " ---> "; std::cout << 0;
+    for (int i = 0; i < SIZE; i++) std::cout << route[i] + 1<< " ---> "; 
+    std::cout << 1;
 
     std::cout << std::endl << "* длина маршрута:\t" << length << std::endl;
 
